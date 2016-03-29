@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="adil.android.com.computerg.Splash"
+    android:background="@drawable/androidapp"
+    android:orientation="vertical">
+
+   <!--ImageView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:src="@drawable/androidapp"
+       android:alpha="1"
+       android:id="@+id/back"/-->
+<ProgressBar
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:id="@+id/prg"
+    android:layout_marginTop="150dp" />
+</LinearLayout>

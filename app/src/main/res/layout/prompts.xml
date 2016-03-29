@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/userview"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Type Your User Name : "
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Enter User name">
+
+        <requestFocus />
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Enter Password"
+        android:inputType="textPassword">
+
+        <requestFocus />
+
+    </EditText>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:text="Login"
+    android:id="@+id/login"/>
+
+</LinearLayout>
